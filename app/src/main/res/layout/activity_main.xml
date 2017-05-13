@@ -10,7 +10,8 @@
         android:id="@+id/btnAddItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Tambah"
+        android:onClick="onAddItem"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/listView"
         android:layout_alignEnd="@+id/listView" />
@@ -31,7 +32,7 @@
         android:layout_alignStart="@+id/listView"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Add todo"
         android:layout_toLeftOf="@+id/btnAddItem"
         android:layout_toStartOf="@+id/btnAddItem" />
 
